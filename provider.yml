@@ -33,7 +33,7 @@ spring:
     name: provider
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/clouddb02
+    url: jdbc:mysql://localhost:3306/clouddb03
     username: root
     password:
   profiles: test
