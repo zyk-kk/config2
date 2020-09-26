@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: dev
+
+---
+
+spring:
+  profiles: dev
+  application:
+    name: configclient1
+server:
+  port: 8021
+---
+spring:
+  profiles: test
+  application:
+    name: configclient2
+server:
+  port: 8022
